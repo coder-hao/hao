@@ -1,0 +1,51 @@
+-------------非常实用的快捷键---------------
+ctrl + M 编辑器窗口最大化的快捷键
+ctrl + E 快速转换编辑器
+ctrl + O 查看一个类的纲要，列出其方法和成员变量。
+ctrl + T 查看一个类的继承关系树
+ctrl + H 打开搜索对话框
+
+alt + shift + L 抽取局部变量
+alt + shift + R 重构重命名
+alt + shift + S R 快速get set
+alt + shift + J 快速生成注释
+
+ctrl + shift + r 打开资源
+ctrl + shift + L 显示快捷键提示
+ctrl + shift + O 导入包
+
+
+我们经常会遇到看代码时Ctrl+左键，层层跟踪，然后迷失在代码中的情况，这时只需要按“Alt+左方向键
+
+”就可以退回到上次阅读的位置，同理，按“Alt+右方向键”会前进到刚才退回的阅读位置，就像浏览器的
+
+前进和后退按钮一样。
+
+
+
+----配置eclipse----------
+删除eclipse的多余的工作空间：Preferences---General---Startup and Shutdown-Workspace
+
+自定义注释：
+  Types(类)：/** 
+	        * @ClassName: ${type_name} 
+		* @Description:  (这里用一句话描述这个方法的作用) 
+		* @author: HaoZhenBo
+		* @date:  ${date} ${time} 
+		* ${tags} 
+	     */
+  Methods(方法)：/** 
+		   * @Title: ${enclosing_method} 
+		   * @Description: (这里用一句话描述这个方法的作用) 
+		   * ${tags}
+		 */
+  Files(文件)：/**   
+		* @Title: ${file_name} 
+		* @Package: ${package_name} 
+		* @Description: (用一句话描述该文件做什么) 
+		* @author: HaoZhenBo   
+		* @date: ${date} ${time} 
+		*/
+
+---jquery的取值-----------------------------------------------------------------------------------------------
+单选按钮选中获取的值： $("input[name='queryIsEmphasis']:checked").val()
